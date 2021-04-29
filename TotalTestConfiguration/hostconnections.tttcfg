@@ -12,7 +12,7 @@
     <skeletonDir>JCLSkeletons</skeletonDir>
     <datasethlq />
     <jclproperties>
-      <property key="lpar_tttrunner_lib" value="SYS3.ECC.MLCX170" />
+      <property key="lpar_tttrunner_lib" value="SYS3.ECC.MLCX170.SLCXLOAD" />
     </jclproperties>
   </Connection>
   <Connection>
