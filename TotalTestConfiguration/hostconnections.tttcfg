@@ -1,0 +1,66 @@
+<Connections>
+  <Connection>
+    <id>35dcb5a0-9482-4607-b4f3-b2a69ef87c13</id>
+    <ipaddress>192.168.16.1</ipaddress>
+    <port>16458</port>
+    <socketType>HCI</socketType>
+    <databaseUri>jdbc:db2://192.168.16.1:&lt;port&gt;/${database}</databaseUri>
+    <databaseDriver>com.ibm.db2.jcc.DB2Driver</databaseDriver>
+    <databaseName>&lt;database&gt;</databaseName>
+    <description>RC40</description>
+    <label>RC40</label>
+    <skeletonDir>JCLSkeletons</skeletonDir>
+    <datasethlq />
+    <jclproperties>
+      <property key="lpar_tttrunner_lib" value="SYS3.ECC.MLCX170" />
+    </jclproperties>
+  </Connection>
+  <Connection>
+    <id>fa78fa79-f61f-43aa-93fa-561361c59f02</id>
+    <ipaddress>192.168.12.1</ipaddress>
+    <port>16458</port>
+    <socketType>HCI</socketType>
+    <databaseUri>jdbc:db2://192.168.12.1:&lt;port&gt;/${database}</databaseUri>
+    <databaseDriver>com.ibm.db2.jcc.DB2Driver</databaseDriver>
+    <databaseName>&lt;database&gt;</databaseName>
+    <description>RC14</description>
+    <label>RC14</label>
+    <skeletonDir>JCLSkeletons</skeletonDir>
+    <datasethlq />
+    <jclproperties>
+      <property key="lpar_tttrunner_lib" value="&lt;value&gt;" />
+    </jclproperties>
+  </Connection>
+  <Connection>
+    <id>4e543f2b-45e3-48d8-9ae9-d131d7134e38</id>
+    <ipaddress>192.168.13.1</ipaddress>
+    <port>16458</port>
+    <socketType>HCI</socketType>
+    <databaseUri>jdbc:db2://192.168.13.1:&lt;port&gt;/${database}</databaseUri>
+    <databaseDriver>com.ibm.db2.jcc.DB2Driver</databaseDriver>
+    <databaseName>&lt;database&gt;</databaseName>
+    <description>RC20</description>
+    <label>RC20</label>
+    <skeletonDir>JCLSkeletons</skeletonDir>
+    <datasethlq />
+    <jclproperties>
+      <property key="lpar_tttrunner_lib" value="&lt;value&gt;" />
+    </jclproperties>
+  </Connection>
+  <Connection>
+    <id>3c7da655-e62a-4c70-b474-c837b479f353</id>
+    <ipaddress>192.168.25.1</ipaddress>
+    <port>16458</port>
+    <socketType>HCI</socketType>
+    <databaseUri>jdbc:db2://192.168.25.1:&lt;port&gt;/${database}</databaseUri>
+    <databaseDriver>com.ibm.db2.jcc.DB2Driver</databaseDriver>
+    <databaseName>&lt;database&gt;</databaseName>
+    <description>RCQ2</description>
+    <label>RCQ2</label>
+    <skeletonDir>JCLSkeletons</skeletonDir>
+    <datasethlq />
+    <jclproperties>
+      <property key="lpar_tttrunner_lib" value="&lt;value&gt;" />
+    </jclproperties>
+  </Connection>
+</Connections>
