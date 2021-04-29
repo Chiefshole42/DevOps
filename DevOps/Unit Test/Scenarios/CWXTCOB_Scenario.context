@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExecutionContext xmlns="http://www.xact.dk/xatester/v/1" environment="35dcb5a0-9482-4607-b4f3-b2a69ef87c13" logLevel="INFO" remote="false" useSimulations="true" uploadResult="false" timeout="300" readTimeout="30" debuggerType="NONE" jobInfoInterval="3" useRepository="false">
+  <ExtensionData>
+    <Parameter key="unittest.loadlibraries">
+      <Value>SYS3.ECC.MLCX170.SLCXLOAD</Value>
+    </Parameter>
+  </ExtensionData>
+  <XaUnit xmlns:data="http://www.xact.dk/xatester/data/v/1" componentNameUnderTest="cwxtcob" caseInsensitiveCompare="false" path="CWXTCOB_Scenario.testscenario">
+    <Test>
+      <Unittest testscenariopath="CWXTCOB_Scenario.testscenario" moduleName="CWXTCOB" />
+    </Test>
+  </XaUnit>
+</ExecutionContext>
