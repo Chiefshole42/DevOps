@@ -3,6 +3,7 @@
   <ExtensionData>
     <Parameter key="unittest.loadlibraries">
       <Value>SYS3.ECC.MLCX170.SLCXLOAD</Value>
+      <Value>SYS3.XPEDITER.TSO.SHARED.SLXTLOAD</Value>
     </Parameter>
   </ExtensionData>
   <XaUnit xmlns:data="http://www.xact.dk/xatester/data/v/1" componentNameUnderTest="cwxtcob" caseInsensitiveCompare="false" path="CWXTCOB_Scenario.testscenario">

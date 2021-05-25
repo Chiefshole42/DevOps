@@ -1,0 +1,638 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<result:DocumentRoot xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:result="http://www.compuware.com/model/xml/result">
+<?totaltestVersion 20.4.1.v20200918-0303_109?><!--Topaz for Total Test 20.4.1.v20200918-0303_109 25 May 2021 5:57:33 PM-->  <result>
+    <testsuiteResult errorCount="3" failureCount="150" testCount="465">
+      <testscenarioResults errorCount="3" failureCount="150" testCount="465">
+        <testcaseResults errorCount="3" failureCount="150" testCount="465">
+          <results actualValue="0" expectedValue="0" name="Check for RETURN_CODE" result="Success"/>
+          <results actualValue="5" expectedValue="5" name="Check for PARM_LTH" result="Success"/>
+          <results actualHex="F0F0F0F0F3" actualValue="00003" dataID="input.arg0.PARMINFO.PARM_DATA" expectedAssert="" expectedValue="00001" message="Check for PARM_DATA failed" name="Check for PARM_DATA" result="Failure"/>
+          <stubAssertion errorCount="2" failureCount="39" testCount="86">
+            <stubdataassertions testCount="6">
+              <results actualValue="N" expectedValue="N" name="Check for END_OF_MONTH_SW" result="Success"/>
+              <results actualValue="0" expectedValue="0" name="Check for YRS_OF_SERVICE" result="Success"/>
+              <results actualValue="210420" expectedValue="210420" name="Check for TODAYS_DATE" result="Success"/>
+              <results name="Check for WA_EMP_HIRE_YY" result="Success"/>
+              <results name="Check for WA_EMP_HIRE_MM" result="Success"/>
+              <results name="Check for WA_EMP_HIRE_DD" result="Success"/>
+              <stubdata href="CWXTCOB_Scenario.archive#Unit%20Test/Stubs/CWXTCOB_CWXTDATE_01.stub.Unit%20Test/Stubs/CWXTCOB_CWXTDATE_01.stub.0"/>
+            </stubdataassertions>
+            <stubdataassertions failureCount="3" testCount="6">
+              <results actualValue="N" expectedValue="N" name="Check for END_OF_MONTH_SW" result="Success"/>
+              <results actualValue="0" expectedValue="0" name="Check for YRS_OF_SERVICE" result="Success"/>
+              <results actualValue="210420" expectedValue="210420" name="Check for TODAYS_DATE" result="Success"/>
+              <results actualHex="F8F1" actualValue="81" dataID="input1.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" expectedAssert="" expectedValue="84" message="Check for WA_EMP_HIRE_YY failed" name="Check for WA_EMP_HIRE_YY" result="Failure"/>
+              <results actualHex="F1F0" actualValue="10" dataID="input1.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM" expectedAssert="" expectedValue="6" message="Check for WA_EMP_HIRE_MM failed" name="Check for WA_EMP_HIRE_MM" result="Failure"/>
+              <results actualHex="F1F5" actualValue="15" dataID="input1.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD" expectedAssert="" expectedValue="25" message="Check for WA_EMP_HIRE_DD failed" name="Check for WA_EMP_HIRE_DD" result="Failure"/>
+              <stubdata href="CWXTCOB_Scenario.archive#Unit%20Test/Stubs/CWXTCOB_CWXTDATE_01.stub.Unit%20Test/Stubs/CWXTCOB_CWXTDATE_01.stub.1"/>
+            </stubdataassertions>
+            <stubdataassertions failureCount="3" testCount="6">
+              <results actualValue="N" expectedValue="N" name="Check for END_OF_MONTH_SW" result="Success"/>
+              <results actualValue="36" expectedValue="36" name="Check for YRS_OF_SERVICE" result="Success"/>
+              <results actualValue="210420" expectedValue="210420" name="Check for TODAYS_DATE" result="Success"/>
+              <results actualHex="F9F2" actualValue="92" dataID="input2.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" expectedAssert="" expectedValue="79" message="Check for WA_EMP_HIRE_YY failed" name="Check for WA_EMP_HIRE_YY" result="Failure"/>
+              <results actualHex="F1F2" actualValue="12" dataID="input2.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM" expectedAssert="" expectedValue="1" message="Check for WA_EMP_HIRE_MM failed" name="Check for WA_EMP_HIRE_MM" result="Failure"/>
+              <results actualHex="F3F1" actualValue="31" dataID="input2.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD" expectedAssert="" expectedValue="30" message="Check for WA_EMP_HIRE_DD failed" name="Check for WA_EMP_HIRE_DD" result="Failure"/>
+              <stubdata href="CWXTCOB_Scenario.archive#Unit%20Test/Stubs/CWXTCOB_CWXTDATE_01.stub.Unit%20Test/Stubs/CWXTCOB_CWXTDATE_01.stub.2"/>
+            </stubdataassertions>
+            <stubdataassertions failureCount="3" testCount="6">
+              <results actualValue="N" expectedValue="N" name="Check for END_OF_MONTH_SW" result="Success"/>
+              <results actualValue="42" expectedValue="42" name="Check for YRS_OF_SERVICE" result="Success"/>
+              <results actualValue="210420" expectedValue="210420" name="Check for TODAYS_DATE" result="Success"/>
+              <results actualHex="F9F4" actualValue="94" dataID="input3.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" expectedAssert="" expectedValue="81" message="Check for WA_EMP_HIRE_YY failed" name="Check for WA_EMP_HIRE_YY" result="Failure"/>
+              <results actualHex="F0F5" actualValue="5" dataID="input3.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM" expectedAssert="" expectedValue="10" message="Check for WA_EMP_HIRE_MM failed" name="Check for WA_EMP_HIRE_MM" result="Failure"/>
+              <results actualHex="F0F1" actualValue="1" dataID="input3.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD" expectedAssert="" expectedValue="15" message="Check for WA_EMP_HIRE_DD failed" name="Check for WA_EMP_HIRE_DD" result="Failure"/>
+              <stubdata href="CWXTCOB_Scenario.archive#Unit%20Test/Stubs/CWXTCOB_CWXTDATE_01.stub.Unit%20Test/Stubs/CWXTCOB_CWXTDATE_01.stub.3"/>
+            </stubdataassertions>
+            <stubdataassertions failureCount="3" testCount="6">
+              <results actualValue="N" expectedValue="N" name="Check for END_OF_MONTH_SW" result="Success"/>
+              <results actualValue="39" expectedValue="39" name="Check for YRS_OF_SERVICE" result="Success"/>
+              <results actualValue="210420" expectedValue="210420" name="Check for TODAYS_DATE" result="Success"/>
+              <results actualHex="F8F9" actualValue="89" dataID="input4.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" expectedAssert="" expectedValue="92" message="Check for WA_EMP_HIRE_YY failed" name="Check for WA_EMP_HIRE_YY" result="Failure"/>
+              <results actualHex="F0F7" actualValue="7" dataID="input4.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM" expectedAssert="" expectedValue="12" message="Check for WA_EMP_HIRE_MM failed" name="Check for WA_EMP_HIRE_MM" result="Failure"/>
+              <results actualHex="F2F0" actualValue="20" dataID="input4.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD" expectedAssert="" expectedValue="31" message="Check for WA_EMP_HIRE_DD failed" name="Check for WA_EMP_HIRE_DD" result="Failure"/>
+              <stubdata href="CWXTCOB_Scenario.archive#Unit%20Test/Stubs/CWXTCOB_CWXTDATE_01.stub.Unit%20Test/Stubs/CWXTCOB_CWXTDATE_01.stub.4"/>
+            </stubdataassertions>
+            <stubdataassertions failureCount="3" testCount="6">
+              <results actualValue="N" expectedValue="N" name="Check for END_OF_MONTH_SW" result="Success"/>
+              <results actualValue="28" expectedValue="28" name="Check for YRS_OF_SERVICE" result="Success"/>
+              <results actualValue="210420" expectedValue="210420" name="Check for TODAYS_DATE" result="Success"/>
+              <results actualHex="F8F3" actualValue="83" dataID="input5.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" expectedAssert="" expectedValue="94" message="Check for WA_EMP_HIRE_YY failed" name="Check for WA_EMP_HIRE_YY" result="Failure"/>
+              <results actualHex="F0F6" actualValue="6" dataID="input5.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM" expectedAssert="" expectedValue="5" message="Check for WA_EMP_HIRE_MM failed" name="Check for WA_EMP_HIRE_MM" result="Failure"/>
+              <results actualHex="F1F4" actualValue="14" dataID="input5.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD" expectedAssert="" expectedValue="1" message="Check for WA_EMP_HIRE_DD failed" name="Check for WA_EMP_HIRE_DD" result="Failure"/>
+              <stubdata href="CWXTCOB_Scenario.archive#Unit%20Test/Stubs/CWXTCOB_CWXTDATE_01.stub.Unit%20Test/Stubs/CWXTCOB_CWXTDATE_01.stub.5"/>
+            </stubdataassertions>
+            <stubdataassertions failureCount="3" testCount="6">
+              <results actualValue="N" expectedValue="N" name="Check for END_OF_MONTH_SW" result="Success"/>
+              <results actualValue="26" expectedValue="26" name="Check for YRS_OF_SERVICE" result="Success"/>
+              <results actualValue="210420" expectedValue="210420" name="Check for TODAYS_DATE" result="Success"/>
+              <results actualHex="F8F7" actualValue="87" dataID="input6.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" expectedAssert="" expectedValue="89" message="Check for WA_EMP_HIRE_YY failed" name="Check for WA_EMP_HIRE_YY" result="Failure"/>
+              <results actualHex="F0F3" actualValue="3" dataID="input6.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM" expectedAssert="" expectedValue="7" message="Check for WA_EMP_HIRE_MM failed" name="Check for WA_EMP_HIRE_MM" result="Failure"/>
+              <results actualHex="F3F1" actualValue="31" dataID="input6.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD" expectedAssert="" expectedValue="20" message="Check for WA_EMP_HIRE_DD failed" name="Check for WA_EMP_HIRE_DD" result="Failure"/>
+              <stubdata href="CWXTCOB_Scenario.archive#Unit%20Test/Stubs/CWXTCOB_CWXTDATE_01.stub.Unit%20Test/Stubs/CWXTCOB_CWXTDATE_01.stub.6"/>
+            </stubdataassertions>
+            <stubdataassertions failureCount="3" testCount="6">
+              <results actualValue="N" expectedValue="N" name="Check for END_OF_MONTH_SW" result="Success"/>
+              <results actualValue="31" expectedValue="31" name="Check for YRS_OF_SERVICE" result="Success"/>
+              <results actualValue="210420" expectedValue="210420" name="Check for TODAYS_DATE" result="Success"/>
+              <results actualHex="F8F1" actualValue="81" dataID="input7.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" expectedAssert="" expectedValue="83" message="Check for WA_EMP_HIRE_YY failed" name="Check for WA_EMP_HIRE_YY" result="Failure"/>
+              <results actualHex="F1F1" actualValue="11" dataID="input7.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM" expectedAssert="" expectedValue="6" message="Check for WA_EMP_HIRE_MM failed" name="Check for WA_EMP_HIRE_MM" result="Failure"/>
+              <results actualHex="F1F1" actualValue="11" dataID="input7.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD" expectedAssert="" expectedValue="14" message="Check for WA_EMP_HIRE_DD failed" name="Check for WA_EMP_HIRE_DD" result="Failure"/>
+              <stubdata href="CWXTCOB_Scenario.archive#Unit%20Test/Stubs/CWXTCOB_CWXTDATE_01.stub.Unit%20Test/Stubs/CWXTCOB_CWXTDATE_01.stub.7"/>
+            </stubdataassertions>
+            <stubdataassertions failureCount="3" testCount="6">
+              <results actualValue="N" expectedValue="N" name="Check for END_OF_MONTH_SW" result="Success"/>
+              <results actualValue="37" expectedValue="37" name="Check for YRS_OF_SERVICE" result="Success"/>
+              <results actualValue="210420" expectedValue="210420" name="Check for TODAYS_DATE" result="Success"/>
+              <results actualHex="F8F2" actualValue="82" dataID="input8.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" expectedAssert="" expectedValue="87" message="Check for WA_EMP_HIRE_YY failed" name="Check for WA_EMP_HIRE_YY" result="Failure"/>
+              <results actualHex="F0F8" actualValue="8" dataID="input8.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM" expectedAssert="" expectedValue="3" message="Check for WA_EMP_HIRE_MM failed" name="Check for WA_EMP_HIRE_MM" result="Failure"/>
+              <results actualHex="F3F0" actualValue="30" dataID="input8.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD" expectedAssert="" expectedValue="31" message="Check for WA_EMP_HIRE_DD failed" name="Check for WA_EMP_HIRE_DD" result="Failure"/>
+              <stubdata href="CWXTCOB_Scenario.archive#Unit%20Test/Stubs/CWXTCOB_CWXTDATE_01.stub.Unit%20Test/Stubs/CWXTCOB_CWXTDATE_01.stub.8"/>
+            </stubdataassertions>
+            <stubdataassertions failureCount="3" testCount="6">
+              <results actualValue="N" expectedValue="N" name="Check for END_OF_MONTH_SW" result="Success"/>
+              <results actualValue="34" expectedValue="34" name="Check for YRS_OF_SERVICE" result="Success"/>
+              <results actualValue="210420" expectedValue="210420" name="Check for TODAYS_DATE" result="Success"/>
+              <results actualHex="F9F3" actualValue="93" dataID="input9.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" expectedAssert="" expectedValue="81" message="Check for WA_EMP_HIRE_YY failed" name="Check for WA_EMP_HIRE_YY" result="Failure"/>
+              <results actualHex="F0F4" actualValue="4" dataID="input9.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM" expectedAssert="" expectedValue="11" message="Check for WA_EMP_HIRE_MM failed" name="Check for WA_EMP_HIRE_MM" result="Failure"/>
+              <results actualHex="F0F5" actualValue="5" dataID="input9.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD" expectedAssert="" expectedValue="11" message="Check for WA_EMP_HIRE_DD failed" name="Check for WA_EMP_HIRE_DD" result="Failure"/>
+              <stubdata href="CWXTCOB_Scenario.archive#Unit%20Test/Stubs/CWXTCOB_CWXTDATE_01.stub.Unit%20Test/Stubs/CWXTCOB_CWXTDATE_01.stub.9"/>
+            </stubdataassertions>
+            <stubdataassertions failureCount="3" testCount="6">
+              <results actualValue="N" expectedValue="N" name="Check for END_OF_MONTH_SW" result="Success"/>
+              <results actualValue="39" expectedValue="39" name="Check for YRS_OF_SERVICE" result="Success"/>
+              <results actualValue="210420" expectedValue="210420" name="Check for TODAYS_DATE" result="Success"/>
+              <results actualHex="F9F1" actualValue="91" dataID="input10.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" expectedAssert="" expectedValue="82" message="Check for WA_EMP_HIRE_YY failed" name="Check for WA_EMP_HIRE_YY" result="Failure"/>
+              <results actualHex="F0F9" actualValue="9" dataID="input10.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM" expectedAssert="" expectedValue="8" message="Check for WA_EMP_HIRE_MM failed" name="Check for WA_EMP_HIRE_MM" result="Failure"/>
+              <results actualHex="F1F3" actualValue="13" dataID="input10.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD" expectedAssert="" expectedValue="30" message="Check for WA_EMP_HIRE_DD failed" name="Check for WA_EMP_HIRE_DD" result="Failure"/>
+              <stubdata href="CWXTCOB_Scenario.archive#Unit%20Test/Stubs/CWXTCOB_CWXTDATE_01.stub.Unit%20Test/Stubs/CWXTCOB_CWXTDATE_01.stub.10"/>
+            </stubdataassertions>
+            <stubdataassertions failureCount="3" testCount="6">
+              <results actualValue="N" expectedValue="N" name="Check for END_OF_MONTH_SW" result="Success"/>
+              <results actualValue="38" expectedValue="38" name="Check for YRS_OF_SERVICE" result="Success"/>
+              <results actualValue="210420" expectedValue="210420" name="Check for TODAYS_DATE" result="Success"/>
+              <results actualHex="F8F8" actualValue="88" dataID="input11.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" expectedAssert="" expectedValue="93" message="Check for WA_EMP_HIRE_YY failed" name="Check for WA_EMP_HIRE_YY" result="Failure"/>
+              <results actualHex="F0F2" actualValue="2" dataID="input11.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM" expectedAssert="" expectedValue="4" message="Check for WA_EMP_HIRE_MM failed" name="Check for WA_EMP_HIRE_MM" result="Failure"/>
+              <results actualHex="F2F9" actualValue="29" dataID="input11.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD" expectedAssert="" expectedValue="5" message="Check for WA_EMP_HIRE_DD failed" name="Check for WA_EMP_HIRE_DD" result="Failure"/>
+              <stubdata href="CWXTCOB_Scenario.archive#Unit%20Test/Stubs/CWXTCOB_CWXTDATE_01.stub.Unit%20Test/Stubs/CWXTCOB_CWXTDATE_01.stub.11"/>
+            </stubdataassertions>
+            <stubdataassertions failureCount="3" testCount="6">
+              <results actualValue="N" expectedValue="N" name="Check for END_OF_MONTH_SW" result="Success"/>
+              <results actualValue="28" expectedValue="28" name="Check for YRS_OF_SERVICE" result="Success"/>
+              <results actualValue="210420" expectedValue="210420" name="Check for TODAYS_DATE" result="Success"/>
+              <results actualHex="F8F6" actualValue="86" dataID="input12.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" expectedAssert="" expectedValue="91" message="Check for WA_EMP_HIRE_YY failed" name="Check for WA_EMP_HIRE_YY" result="Failure"/>
+              <results actualHex="F0F1" actualValue="1" dataID="input12.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM" expectedAssert="" expectedValue="9" message="Check for WA_EMP_HIRE_MM failed" name="Check for WA_EMP_HIRE_MM" result="Failure"/>
+              <results actualHex="F0F2" actualValue="2" dataID="input12.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD" expectedAssert="" expectedValue="13" message="Check for WA_EMP_HIRE_DD failed" name="Check for WA_EMP_HIRE_DD" result="Failure"/>
+              <stubdata href="CWXTCOB_Scenario.archive#Unit%20Test/Stubs/CWXTCOB_CWXTDATE_01.stub.Unit%20Test/Stubs/CWXTCOB_CWXTDATE_01.stub.12"/>
+            </stubdataassertions>
+            <stubdataassertions failureCount="3" testCount="6">
+              <results actualValue="N" expectedValue="N" name="Check for END_OF_MONTH_SW" result="Success"/>
+              <results actualValue="29" expectedValue="29" name="Check for YRS_OF_SERVICE" result="Success"/>
+              <results actualValue="210420" expectedValue="210420" name="Check for TODAYS_DATE" result="Success"/>
+              <results actualHex="F8F2" actualValue="82" dataID="input13.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" expectedAssert="" expectedValue="88" message="Check for WA_EMP_HIRE_YY failed" name="Check for WA_EMP_HIRE_YY" result="Failure"/>
+              <results actualHex="F0F9" actualValue="9" dataID="input13.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM" expectedAssert="" expectedValue="2" message="Check for WA_EMP_HIRE_MM failed" name="Check for WA_EMP_HIRE_MM" result="Failure"/>
+              <results actualHex="F3F0" actualValue="30" dataID="input13.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD" expectedAssert="" expectedValue="29" message="Check for WA_EMP_HIRE_DD failed" name="Check for WA_EMP_HIRE_DD" result="Failure"/>
+              <stubdata href="CWXTCOB_Scenario.archive#Unit%20Test/Stubs/CWXTCOB_CWXTDATE_01.stub.Unit%20Test/Stubs/CWXTCOB_CWXTDATE_01.stub.13"/>
+            </stubdataassertions>
+            <stubdataassertions errorCount="1" failureCount="0" testCount="1">
+              <stubdata href="CWXTCOB_Scenario.archive#Unit%20Test/Stubs/CWXTCOB_CWXTDATE_01.stub.14"/>
+            </stubdataassertions>
+            <stubdataassertions errorCount="1" failureCount="0" testCount="1">
+              <stubdata href="CWXTCOB_Scenario.archive#Unit%20Test/Stubs/CWXTCOB_CWXTDATE_01.stub.15"/>
+            </stubdataassertions>
+            <stub href="CWXTCOB_Scenario.archive#Unit%20Test/Stubs/CWXTCOB_CWXTDATE_01.stub"/>
+          </stubAssertion>
+          <stubAssertion errorCount="0" failureCount="0" testCount="24">
+            <stubdataassertions testCount="3">
+              <results actualValue="S" expectedValue="S" name="Check for EMP_TYPE" result="Success"/>
+              <results actualValue="55000.00" expectedValue="55000.00" name="Check for CALC_SALES" result="Success"/>
+              <results actualValue="0" expectedValue="0" name="Check for CALC_COMMISSION" result="Success"/>
+              <stubdata href="CWXTCOB_Scenario.archive#Unit%20Test/Stubs/CWXTCOB_CWXTSUBC_01.stub.Unit%20Test/Stubs/CWXTCOB_CWXTSUBC_01.stub.0"/>
+            </stubdataassertions>
+            <stubdataassertions testCount="3">
+              <results actualValue="S" expectedValue="S" name="Check for EMP_TYPE" result="Success"/>
+              <results actualValue="70000.00" expectedValue="70000.00" name="Check for CALC_SALES" result="Success"/>
+              <results actualValue="0" expectedValue="0" name="Check for CALC_COMMISSION" result="Success"/>
+              <stubdata href="CWXTCOB_Scenario.archive#Unit%20Test/Stubs/CWXTCOB_CWXTSUBC_01.stub.Unit%20Test/Stubs/CWXTCOB_CWXTSUBC_01.stub.1"/>
+            </stubdataassertions>
+            <stubdataassertions testCount="3">
+              <results actualValue="S" expectedValue="S" name="Check for EMP_TYPE" result="Success"/>
+              <results actualValue="25000.00" expectedValue="25000.00" name="Check for CALC_SALES" result="Success"/>
+              <results actualValue="0" expectedValue="0" name="Check for CALC_COMMISSION" result="Success"/>
+              <stubdata href="CWXTCOB_Scenario.archive#Unit%20Test/Stubs/CWXTCOB_CWXTSUBC_01.stub.Unit%20Test/Stubs/CWXTCOB_CWXTSUBC_01.stub.2"/>
+            </stubdataassertions>
+            <stubdataassertions testCount="3">
+              <results actualValue="S" expectedValue="S" name="Check for EMP_TYPE" result="Success"/>
+              <results actualValue="75000.00" expectedValue="75000.00" name="Check for CALC_SALES" result="Success"/>
+              <results actualValue="0" expectedValue="0" name="Check for CALC_COMMISSION" result="Success"/>
+              <stubdata href="CWXTCOB_Scenario.archive#Unit%20Test/Stubs/CWXTCOB_CWXTSUBC_01.stub.Unit%20Test/Stubs/CWXTCOB_CWXTSUBC_01.stub.3"/>
+            </stubdataassertions>
+            <stubdataassertions testCount="3">
+              <results actualValue="S" expectedValue="S" name="Check for EMP_TYPE" result="Success"/>
+              <results actualValue="55550.00" expectedValue="55550.00" name="Check for CALC_SALES" result="Success"/>
+              <results actualValue="0" expectedValue="0" name="Check for CALC_COMMISSION" result="Success"/>
+              <stubdata href="CWXTCOB_Scenario.archive#Unit%20Test/Stubs/CWXTCOB_CWXTSUBC_01.stub.Unit%20Test/Stubs/CWXTCOB_CWXTSUBC_01.stub.4"/>
+            </stubdataassertions>
+            <stubdataassertions testCount="3">
+              <results actualValue="S" expectedValue="S" name="Check for EMP_TYPE" result="Success"/>
+              <results actualValue="75000.00" expectedValue="75000.00" name="Check for CALC_SALES" result="Success"/>
+              <results actualValue="0" expectedValue="0" name="Check for CALC_COMMISSION" result="Success"/>
+              <stubdata href="CWXTCOB_Scenario.archive#Unit%20Test/Stubs/CWXTCOB_CWXTSUBC_01.stub.Unit%20Test/Stubs/CWXTCOB_CWXTSUBC_01.stub.5"/>
+            </stubdataassertions>
+            <stubdataassertions testCount="3">
+              <results actualValue="S" expectedValue="S" name="Check for EMP_TYPE" result="Success"/>
+              <results actualValue="28000.00" expectedValue="28000.00" name="Check for CALC_SALES" result="Success"/>
+              <results actualValue="0" expectedValue="0" name="Check for CALC_COMMISSION" result="Success"/>
+              <stubdata href="CWXTCOB_Scenario.archive#Unit%20Test/Stubs/CWXTCOB_CWXTSUBC_01.stub.Unit%20Test/Stubs/CWXTCOB_CWXTSUBC_01.stub.6"/>
+            </stubdataassertions>
+            <stubdataassertions testCount="3">
+              <results actualValue="S" expectedValue="S" name="Check for EMP_TYPE" result="Success"/>
+              <results actualValue="75000.00" expectedValue="75000.00" name="Check for CALC_SALES" result="Success"/>
+              <results actualValue="0" expectedValue="0" name="Check for CALC_COMMISSION" result="Success"/>
+              <stubdata href="CWXTCOB_Scenario.archive#Unit%20Test/Stubs/CWXTCOB_CWXTSUBC_01.stub.Unit%20Test/Stubs/CWXTCOB_CWXTSUBC_01.stub.7"/>
+            </stubdataassertions>
+            <stub href="CWXTCOB_Scenario.archive#Unit%20Test/Stubs/CWXTCOB_CWXTSUBC_01.stub"/>
+          </stubAssertion>
+          <stubAssertion errorCount="0" failureCount="0" testCount="1">
+            <stubdataassertions errorCount="0" failureCount="0" testCount="1">
+              <stubdata href="CWXTCOB_Scenario.archive#Unit%20Test/Stubs/CWXTCOB_DATETIME_01.stub.0"/>
+            </stubdataassertions>
+            <stub href="CWXTCOB_Scenario.archive#Unit%20Test/Stubs/CWXTCOB_DATETIME_01.stub"/>
+          </stubAssertion>
+          <stubAssertion errorCount="1" failureCount="110" testCount="351">
+            <stubdataassertions testCount="1">
+              <results actualValue="" expectedValue="" name="Check for BLANK_LINE" result="Success"/>
+              <stubdata href="CWXTCOB_Scenario.archive#Unit%20Test/Stubs/CWXTCOB_RPTFILE_FILE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_FILE_01.stub.0"/>
+            </stubdataassertions>
+            <stubdataassertions testCount="1">
+              <results actualValue="" expectedValue="" name="Check for BLANK_LINE" result="Success"/>
+              <stubdata href="CWXTCOB_Scenario.archive#Unit%20Test/Stubs/CWXTCOB_RPTFILE_FILE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_FILE_01.stub.1"/>
+            </stubdataassertions>
+            <stubdataassertions testCount="1">
+              <results actualValue="" expectedValue="" name="Check for BLANK_LINE" result="Success"/>
+              <stubdata href="CWXTCOB_Scenario.archive#Unit%20Test/Stubs/CWXTCOB_RPTFILE_FILE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_FILE_01.stub.2"/>
+            </stubdataassertions>
+            <stubdataassertions testCount="12">
+              <results actualValue="" expectedValue="" name="Check for FILLER0" result="Success"/>
+              <results actualValue="RUN DATE" expectedValue="RUN DATE" name="Check for FILLER1" result="Success"/>
+              <results actualValue="4" expectedValue="4" name="Check for EMP_RUN_MM" result="Success"/>
+              <results actualValue="/" expectedValue="/" name="Check for FILLER2" result="Success"/>
+              <results actualValue="20" expectedValue="20" name="Check for EMP_RUN_DD" result="Success"/>
+              <results actualValue="/" expectedValue="/" name="Check for FILLER3" result="Success"/>
+              <results actualValue="21" expectedValue="21" name="Check for EMP_RUN_YY" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER4" result="Success"/>
+              <results actualValue="EMPLOYEE COMPENSATION REPORT" expectedValue="EMPLOYEE COMPENSATION REPORT" name="Check for FILLER5" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER6" result="Success"/>
+              <results actualValue="PAGE" expectedValue="PAGE" name="Check for FILLER7" result="Success"/>
+              <results actualValue="1" expectedValue="1" name="Check for EMP_PAGE" result="Success"/>
+              <stubdata href="CWXTCOB_Scenario.archive#Unit%20Test/Stubs/CWXTCOB_RPTFILE_FILE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_FILE_01.stub.3"/>
+            </stubdataassertions>
+            <stubdataassertions testCount="1">
+              <results actualValue="" expectedValue="" name="Check for BLANK_LINE" result="Success"/>
+              <stubdata href="CWXTCOB_Scenario.archive#Unit%20Test/Stubs/CWXTCOB_RPTFILE_FILE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_FILE_01.stub.4"/>
+            </stubdataassertions>
+            <stubdataassertions testCount="1">
+              <results actualValue="" expectedValue="" name="Check for BLANK_LINE" result="Success"/>
+              <stubdata href="CWXTCOB_Scenario.archive#Unit%20Test/Stubs/CWXTCOB_RPTFILE_FILE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_FILE_01.stub.5"/>
+            </stubdataassertions>
+            <stubdataassertions testCount="5">
+              <results actualValue="" expectedValue="" name="Check for FILLER0" result="Success"/>
+              <results actualValue="HIRE" expectedValue="HIRE" name="Check for FILLER1" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER2" result="Success"/>
+              <results actualValue="YRS OF" expectedValue="YRS OF" name="Check for FILLER3" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER4" result="Success"/>
+              <stubdata href="CWXTCOB_Scenario.archive#Unit%20Test/Stubs/CWXTCOB_RPTFILE_FILE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_FILE_01.stub.6"/>
+            </stubdataassertions>
+            <stubdataassertions testCount="18">
+              <results actualValue="" expectedValue="" name="Check for FILLER0" result="Success"/>
+              <results actualValue="EMPLOYEE NAME" expectedValue="EMPLOYEE NAME" name="Check for FILLER1" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER2" result="Success"/>
+              <results actualValue="REGION" expectedValue="REGION" name="Check for FILLER3" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER4" result="Success"/>
+              <results actualValue="TYPE" expectedValue="TYPE" name="Check for FILLER5" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER6" result="Success"/>
+              <results actualValue="DATE" expectedValue="DATE" name="Check for FILLER7" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER8" result="Success"/>
+              <results actualValue="SERVICE" expectedValue="SERVICE" name="Check for FILLER9" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER10" result="Success"/>
+              <results actualValue="SALARY" expectedValue="SALARY" name="Check for FILLER11" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER12" result="Success"/>
+              <results actualValue="O/T" expectedValue="O/T" name="Check for FILLER13" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER14" result="Success"/>
+              <results actualValue="COMMISSION" expectedValue="COMMISSION" name="Check for FILLER15" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER16" result="Success"/>
+              <results actualValue="TOTAL" expectedValue="TOTAL" name="Check for FILLER17" result="Success"/>
+              <stubdata href="CWXTCOB_Scenario.archive#Unit%20Test/Stubs/CWXTCOB_RPTFILE_FILE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_FILE_01.stub.7"/>
+            </stubdataassertions>
+            <stubdataassertions testCount="1">
+              <results actualValue="" expectedValue="" name="Check for BLANK_LINE" result="Success"/>
+              <stubdata href="CWXTCOB_Scenario.archive#Unit%20Test/Stubs/CWXTCOB_RPTFILE_FILE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_FILE_01.stub.8"/>
+            </stubdataassertions>
+            <stubdataassertions failureCount="4" testCount="22">
+              <results actualValue="" expectedValue="" name="Check for FILLER0" result="Success"/>
+              <results actualValue="JOHN SMITH" expectedValue="JOHN SMITH" name="Check for EMP_DTL_NAME" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER1" result="Success"/>
+              <results actualValue="NORTH" expectedValue="NORTH" name="Check for EMP_DTL_REGION" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER2" result="Success"/>
+              <results actualValue="H" expectedValue="H" name="Check for EMP_DTL_TYPE" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER3" result="Success"/>
+              <results actualHex="F0F6" actualValue="6" dataID="output9.arg0.EMPLOYEE_DTL.EMP_DTL_HIRE_MM" expectedAssert="" expectedValue="10" message="Check for EMP_DTL_HIRE_MM failed" name="Check for EMP_DTL_HIRE_MM" result="Failure"/>
+              <results actualValue="/" expectedValue="/" name="Check for EMP_DTL_SLASH1" result="Success"/>
+              <results actualHex="F2F5" actualValue="25" dataID="output9.arg0.EMPLOYEE_DTL.EMP_DTL_HIRE_DD" expectedAssert="" expectedValue="15" message="Check for EMP_DTL_HIRE_DD failed" name="Check for EMP_DTL_HIRE_DD" result="Failure"/>
+              <results actualValue="/" expectedValue="/" name="Check for EMP_DTL_SLASH2" result="Success"/>
+              <results actualHex="F8F4" actualValue="84" dataID="output9.arg0.EMPLOYEE_DTL.EMP_DTL_HIRE_YY" expectedAssert="" expectedValue="81" message="Check for EMP_DTL_HIRE_YY failed" name="Check for EMP_DTL_HIRE_YY" result="Failure"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER4" result="Success"/>
+              <results actualHex="F3F6" actualValue="36" dataID="output9.arg0.EMPLOYEE_DTL.EMP_DTL_YRS_OF_SERVICE" expectedAssert="" expectedValue="39" message="Check for EMP_DTL_YRS_OF_SERVICE failed" name="Check for EMP_DTL_YRS_OF_SERVICE" result="Failure"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER5" result="Success"/>
+              <results actualValue="1083.00" expectedValue="1083.00" name="Check for EMP_DTL_WAGES" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER6" result="Success"/>
+              <results actualValue="0.00" expectedValue="0.00" name="Check for EMP_DTL_OT" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER7" result="Success"/>
+              <results actualValue="0.00" expectedValue="0.00" name="Check for EMP_DTL_COMM" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER8" result="Success"/>
+              <results actualValue="1083.00" expectedValue="1083.00" name="Check for EMP_DTL_TOTAL" result="Success"/>
+              <stubdata href="CWXTCOB_Scenario.archive#Unit%20Test/Stubs/CWXTCOB_RPTFILE_FILE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_FILE_01.stub.9"/>
+            </stubdataassertions>
+            <stubdataassertions failureCount="4" testCount="22">
+              <results actualValue="" expectedValue="" name="Check for FILLER0" result="Success"/>
+              <results actualValue="ROY GARDNER" expectedValue="ROY GARDNER" name="Check for EMP_DTL_NAME" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER1" result="Success"/>
+              <results actualValue="NORTH" expectedValue="NORTH" name="Check for EMP_DTL_REGION" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER2" result="Success"/>
+              <results actualValue="S" expectedValue="S" name="Check for EMP_DTL_TYPE" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER3" result="Success"/>
+              <results actualHex="F0F1" actualValue="1" dataID="output10.arg0.EMPLOYEE_DTL.EMP_DTL_HIRE_MM" expectedAssert="" expectedValue="12" message="Check for EMP_DTL_HIRE_MM failed" name="Check for EMP_DTL_HIRE_MM" result="Failure"/>
+              <results actualValue="/" expectedValue="/" name="Check for EMP_DTL_SLASH1" result="Success"/>
+              <results actualHex="F3F0" actualValue="30" dataID="output10.arg0.EMPLOYEE_DTL.EMP_DTL_HIRE_DD" expectedAssert="" expectedValue="31" message="Check for EMP_DTL_HIRE_DD failed" name="Check for EMP_DTL_HIRE_DD" result="Failure"/>
+              <results actualValue="/" expectedValue="/" name="Check for EMP_DTL_SLASH2" result="Success"/>
+              <results actualHex="F7F9" actualValue="79" dataID="output10.arg0.EMPLOYEE_DTL.EMP_DTL_HIRE_YY" expectedAssert="" expectedValue="92" message="Check for EMP_DTL_HIRE_YY failed" name="Check for EMP_DTL_HIRE_YY" result="Failure"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER4" result="Success"/>
+              <results actualHex="F4F2" actualValue="42" dataID="output10.arg0.EMPLOYEE_DTL.EMP_DTL_YRS_OF_SERVICE" expectedAssert="" expectedValue="28" message="Check for EMP_DTL_YRS_OF_SERVICE failed" name="Check for EMP_DTL_YRS_OF_SERVICE" result="Failure"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER5" result="Success"/>
+              <results actualValue="750.00" expectedValue="750.00" name="Check for EMP_DTL_WAGES" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER6" result="Success"/>
+              <results actualValue="0.00" expectedValue="0.00" name="Check for EMP_DTL_OT" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER7" result="Success"/>
+              <results actualValue="3300.00" expectedValue="3300.00" name="Check for EMP_DTL_COMM" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER8" result="Success"/>
+              <results actualValue="4050.00" expectedValue="4050.00" name="Check for EMP_DTL_TOTAL" result="Success"/>
+              <stubdata href="CWXTCOB_Scenario.archive#Unit%20Test/Stubs/CWXTCOB_RPTFILE_FILE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_FILE_01.stub.10"/>
+            </stubdataassertions>
+            <stubdataassertions failureCount="4" testCount="22">
+              <results actualValue="" expectedValue="" name="Check for FILLER0" result="Success"/>
+              <results actualValue="DAN PEARSON" expectedValue="DAN PEARSON" name="Check for EMP_DTL_NAME" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER1" result="Success"/>
+              <results actualValue="NORTH" expectedValue="NORTH" name="Check for EMP_DTL_REGION" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER2" result="Success"/>
+              <results actualValue="S" expectedValue="S" name="Check for EMP_DTL_TYPE" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER3" result="Success"/>
+              <results actualHex="F1F2" actualValue="12" dataID="output11.arg0.EMPLOYEE_DTL.EMP_DTL_HIRE_MM" expectedAssert="" expectedValue="7" message="Check for EMP_DTL_HIRE_MM failed" name="Check for EMP_DTL_HIRE_MM" result="Failure"/>
+              <results actualValue="/" expectedValue="/" name="Check for EMP_DTL_SLASH1" result="Success"/>
+              <results actualHex="F3F1" actualValue="31" dataID="output11.arg0.EMPLOYEE_DTL.EMP_DTL_HIRE_DD" expectedAssert="" expectedValue="20" message="Check for EMP_DTL_HIRE_DD failed" name="Check for EMP_DTL_HIRE_DD" result="Failure"/>
+              <results actualValue="/" expectedValue="/" name="Check for EMP_DTL_SLASH2" result="Success"/>
+              <results actualHex="F9F2" actualValue="92" dataID="output11.arg0.EMPLOYEE_DTL.EMP_DTL_HIRE_YY" expectedAssert="" expectedValue="89" message="Check for EMP_DTL_HIRE_YY failed" name="Check for EMP_DTL_HIRE_YY" result="Failure"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER4" result="Success"/>
+              <results actualHex="F2F8" actualValue="28" dataID="output11.arg0.EMPLOYEE_DTL.EMP_DTL_YRS_OF_SERVICE" expectedAssert="" expectedValue="31" message="Check for EMP_DTL_YRS_OF_SERVICE failed" name="Check for EMP_DTL_YRS_OF_SERVICE" result="Failure"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER5" result="Success"/>
+              <results actualValue="850.00" expectedValue="850.00" name="Check for EMP_DTL_WAGES" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER6" result="Success"/>
+              <results actualValue="0.00" expectedValue="0.00" name="Check for EMP_DTL_OT" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER7" result="Success"/>
+              <results actualValue="1000.00" expectedValue="1000.00" name="Check for EMP_DTL_COMM" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER8" result="Success"/>
+              <results actualValue="1850.00" expectedValue="1850.00" name="Check for EMP_DTL_TOTAL" result="Success"/>
+              <stubdata href="CWXTCOB_Scenario.archive#Unit%20Test/Stubs/CWXTCOB_RPTFILE_FILE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_FILE_01.stub.11"/>
+            </stubdataassertions>
+            <stubdataassertions failureCount="9" testCount="22">
+              <results actualValue="" expectedValue="" name="Check for FILLER0" result="Success"/>
+              <results actualHex="D4C9C3C8C1C5D340C4C1E8E3D6D540" actualValue="MICHAEL DAYTON" dataID="output12.arg0.EMPLOYEE_DTL.EMP_DTL_NAME" expectedAssert="" expectedValue="GAIL LAWRENCE" message="Check for EMP_DTL_NAME failed" name="Check for EMP_DTL_NAME" result="Failure"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER1" result="Success"/>
+              <results actualValue="SOUTH" expectedValue="SOUTH" name="Check for EMP_DTL_REGION" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER2" result="Success"/>
+              <results actualHex="E2" actualValue="S" dataID="output12.arg0.EMPLOYEE_DTL.EMP_DTL_TYPE" expectedAssert="" expectedValue="H" message="Check for EMP_DTL_TYPE failed" name="Check for EMP_DTL_TYPE" result="Failure"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER3" result="Success"/>
+              <results actualHex="F0F3" actualValue="3" dataID="output12.arg0.EMPLOYEE_DTL.EMP_DTL_HIRE_MM" expectedAssert="" expectedValue="6" message="Check for EMP_DTL_HIRE_MM failed" name="Check for EMP_DTL_HIRE_MM" result="Failure"/>
+              <results actualValue="/" expectedValue="/" name="Check for EMP_DTL_SLASH1" result="Success"/>
+              <results actualHex="F3F1" actualValue="31" dataID="output12.arg0.EMPLOYEE_DTL.EMP_DTL_HIRE_DD" expectedAssert="" expectedValue="25" message="Check for EMP_DTL_HIRE_DD failed" name="Check for EMP_DTL_HIRE_DD" result="Failure"/>
+              <results actualValue="/" expectedValue="/" name="Check for EMP_DTL_SLASH2" result="Success"/>
+              <results actualHex="F8F7" actualValue="87" dataID="output12.arg0.EMPLOYEE_DTL.EMP_DTL_HIRE_YY" expectedAssert="" expectedValue="84" message="Check for EMP_DTL_HIRE_YY failed" name="Check for EMP_DTL_HIRE_YY" result="Failure"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER4" result="Success"/>
+              <results actualHex="F3F4" actualValue="34" dataID="output12.arg0.EMPLOYEE_DTL.EMP_DTL_YRS_OF_SERVICE" expectedAssert="" expectedValue="36" message="Check for EMP_DTL_YRS_OF_SERVICE failed" name="Check for EMP_DTL_YRS_OF_SERVICE" result="Failure"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER5" result="Success"/>
+              <results actualHex="4040F8F2F54BF0F0" actualValue="825.00" dataID="output12.arg0.EMPLOYEE_DTL.EMP_DTL_WAGES" expectedAssert="" expectedValue="20000.00" message="Check for EMP_DTL_WAGES failed" name="Check for EMP_DTL_WAGES" result="Failure"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER6" result="Success"/>
+              <results actualValue="0.00" expectedValue="0.00" name="Check for EMP_DTL_OT" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER7" result="Success"/>
+              <results actualHex="40F6F0F0F04BF0F0" actualValue="6000.00" dataID="output12.arg0.EMPLOYEE_DTL.EMP_DTL_COMM" expectedAssert="" expectedValue="0.00" message="Check for EMP_DTL_COMM failed" name="Check for EMP_DTL_COMM" result="Failure"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER8" result="Success"/>
+              <results actualHex="40F6F8F2F54BF0F0" actualValue="6825.00" dataID="output12.arg0.EMPLOYEE_DTL.EMP_DTL_TOTAL" expectedAssert="" expectedValue="20000.00" message="Check for EMP_DTL_TOTAL failed" name="Check for EMP_DTL_TOTAL" result="Failure"/>
+              <stubdata href="CWXTCOB_Scenario.archive#Unit%20Test/Stubs/CWXTCOB_RPTFILE_FILE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_FILE_01.stub.12"/>
+            </stubdataassertions>
+            <stubdataassertions failureCount="8" testCount="22">
+              <results actualValue="" expectedValue="" name="Check for FILLER0" result="Success"/>
+              <results actualHex="C4C5D5D5C9E240E6C8C9E3C5404040" actualValue="DENNIS WHITE" dataID="output13.arg0.EMPLOYEE_DTL.EMP_DTL_NAME" expectedAssert="" expectedValue="MICHAEL DAYTON" message="Check for EMP_DTL_NAME failed" name="Check for EMP_DTL_NAME" result="Failure"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER1" result="Success"/>
+              <results actualValue="SOUTH" expectedValue="SOUTH" name="Check for EMP_DTL_REGION" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER2" result="Success"/>
+              <results actualValue="S" expectedValue="S" name="Check for EMP_DTL_TYPE" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER3" result="Success"/>
+              <results actualHex="F0F4" actualValue="4" dataID="output13.arg0.EMPLOYEE_DTL.EMP_DTL_HIRE_MM" expectedAssert="" expectedValue="8" message="Check for EMP_DTL_HIRE_MM failed" name="Check for EMP_DTL_HIRE_MM" result="Failure"/>
+              <results actualValue="/" expectedValue="/" name="Check for EMP_DTL_SLASH1" result="Success"/>
+              <results actualHex="F0F5" actualValue="5" dataID="output13.arg0.EMPLOYEE_DTL.EMP_DTL_HIRE_DD" expectedAssert="" expectedValue="30" message="Check for EMP_DTL_HIRE_DD failed" name="Check for EMP_DTL_HIRE_DD" result="Failure"/>
+              <results actualValue="/" expectedValue="/" name="Check for EMP_DTL_SLASH2" result="Success"/>
+              <results actualHex="F9F3" actualValue="93" dataID="output13.arg0.EMPLOYEE_DTL.EMP_DTL_HIRE_YY" expectedAssert="" expectedValue="82" message="Check for EMP_DTL_HIRE_YY failed" name="Check for EMP_DTL_HIRE_YY" result="Failure"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER4" result="Success"/>
+              <results actualHex="F2F8" actualValue="28" dataID="output13.arg0.EMPLOYEE_DTL.EMP_DTL_YRS_OF_SERVICE" expectedAssert="" expectedValue="38" message="Check for EMP_DTL_YRS_OF_SERVICE failed" name="Check for EMP_DTL_YRS_OF_SERVICE" result="Failure"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER5" result="Success"/>
+              <results actualHex="40F1F0F5F04BF0F0" actualValue="1050.00" dataID="output13.arg0.EMPLOYEE_DTL.EMP_DTL_WAGES" expectedAssert="" expectedValue="825.00" message="Check for EMP_DTL_WAGES failed" name="Check for EMP_DTL_WAGES" result="Failure"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER6" result="Success"/>
+              <results actualValue="0.00" expectedValue="0.00" name="Check for EMP_DTL_OT" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER7" result="Success"/>
+              <results actualHex="40F1F1F2F04BF0F0" actualValue="1120.00" dataID="output13.arg0.EMPLOYEE_DTL.EMP_DTL_COMM" expectedAssert="" expectedValue="6000.00" message="Check for EMP_DTL_COMM failed" name="Check for EMP_DTL_COMM" result="Failure"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER8" result="Success"/>
+              <results actualHex="40F2F1F7F04BF0F0" actualValue="2170.00" dataID="output13.arg0.EMPLOYEE_DTL.EMP_DTL_TOTAL" expectedAssert="" expectedValue="6825.00" message="Check for EMP_DTL_TOTAL failed" name="Check for EMP_DTL_TOTAL" result="Failure"/>
+              <stubdata href="CWXTCOB_Scenario.archive#Unit%20Test/Stubs/CWXTCOB_RPTFILE_FILE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_FILE_01.stub.13"/>
+            </stubdataassertions>
+            <stubdataassertions failureCount="9" testCount="22">
+              <results actualValue="" expectedValue="" name="Check for FILLER0" result="Success"/>
+              <results actualHex="E5C1D3C5D9C9C540D6D3E2C5D54040" actualValue="VALERIE OLSEN" dataID="output14.arg0.EMPLOYEE_DTL.EMP_DTL_NAME" expectedAssert="" expectedValue="DENNIS WHITE" message="Check for EMP_DTL_NAME failed" name="Check for EMP_DTL_NAME" result="Failure"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER1" result="Success"/>
+              <results actualHex="C5C1E2E340" actualValue="EAST" dataID="output14.arg0.EMPLOYEE_DTL.EMP_DTL_REGION" expectedAssert="" expectedValue="SOUTH" message="Check for EMP_DTL_REGION failed" name="Check for EMP_DTL_REGION" result="Failure"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER2" result="Success"/>
+              <results actualValue="S" expectedValue="S" name="Check for EMP_DTL_TYPE" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER3" result="Success"/>
+              <results actualHex="F1F0" actualValue="10" dataID="output14.arg0.EMPLOYEE_DTL.EMP_DTL_HIRE_MM" expectedAssert="" expectedValue="2" message="Check for EMP_DTL_HIRE_MM failed" name="Check for EMP_DTL_HIRE_MM" result="Failure"/>
+              <results actualValue="/" expectedValue="/" name="Check for EMP_DTL_SLASH1" result="Success"/>
+              <results actualHex="F1F5" actualValue="15" dataID="output14.arg0.EMPLOYEE_DTL.EMP_DTL_HIRE_DD" expectedAssert="" expectedValue="29" message="Check for EMP_DTL_HIRE_DD failed" name="Check for EMP_DTL_HIRE_DD" result="Failure"/>
+              <results actualValue="/" expectedValue="/" name="Check for EMP_DTL_SLASH2" result="Success"/>
+              <results actualHex="F8F1" actualValue="81" dataID="output14.arg0.EMPLOYEE_DTL.EMP_DTL_HIRE_YY" expectedAssert="" expectedValue="88" message="Check for EMP_DTL_HIRE_YY failed" name="Check for EMP_DTL_HIRE_YY" result="Failure"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER4" result="Success"/>
+              <results actualHex="F3F9" actualValue="39" dataID="output14.arg0.EMPLOYEE_DTL.EMP_DTL_YRS_OF_SERVICE" expectedAssert="" expectedValue="33" message="Check for EMP_DTL_YRS_OF_SERVICE failed" name="Check for EMP_DTL_YRS_OF_SERVICE" result="Failure"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER5" result="Success"/>
+              <results actualHex="4040F9F0F04BF0F0" actualValue="900.00" dataID="output14.arg0.EMPLOYEE_DTL.EMP_DTL_WAGES" expectedAssert="" expectedValue="1050.00" message="Check for EMP_DTL_WAGES failed" name="Check for EMP_DTL_WAGES" result="Failure"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER6" result="Success"/>
+              <results actualValue="0.00" expectedValue="0.00" name="Check for EMP_DTL_OT" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER7" result="Success"/>
+              <results actualHex="40F5F6F0F04BF0F0" actualValue="5600.00" dataID="output14.arg0.EMPLOYEE_DTL.EMP_DTL_COMM" expectedAssert="" expectedValue="1120.00" message="Check for EMP_DTL_COMM failed" name="Check for EMP_DTL_COMM" result="Failure"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER8" result="Success"/>
+              <results actualHex="40F6F5F0F04BF0F0" actualValue="6500.00" dataID="output14.arg0.EMPLOYEE_DTL.EMP_DTL_TOTAL" expectedAssert="" expectedValue="2170.00" message="Check for EMP_DTL_TOTAL failed" name="Check for EMP_DTL_TOTAL" result="Failure"/>
+              <stubdata href="CWXTCOB_Scenario.archive#Unit%20Test/Stubs/CWXTCOB_RPTFILE_FILE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_FILE_01.stub.14"/>
+            </stubdataassertions>
+            <stubdataassertions failureCount="4" testCount="22">
+              <results actualValue="" expectedValue="" name="Check for FILLER0" result="Success"/>
+              <results actualHex="D3C1E4D9C140D4C1D9E3C9D5404040" actualValue="LAURA MARTIN" dataID="output15.arg0.EMPLOYEE_DTL.EMP_DTL_NAME" expectedAssert="" expectedValue="VALERIE OLSEN" message="Check for EMP_DTL_NAME failed" name="Check for EMP_DTL_NAME" result="Failure"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER1" result="Success"/>
+              <results actualValue="EAST" expectedValue="EAST" name="Check for EMP_DTL_REGION" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER2" result="Success"/>
+              <results actualValue="S" expectedValue="S" name="Check for EMP_DTL_TYPE" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER3" result="Success"/>
+              <results actualValue="5" expectedValue="5" name="Check for EMP_DTL_HIRE_MM" result="Success"/>
+              <results actualValue="/" expectedValue="/" name="Check for EMP_DTL_SLASH1" result="Success"/>
+              <results actualValue="1" expectedValue="1" name="Check for EMP_DTL_HIRE_DD" result="Success"/>
+              <results actualValue="/" expectedValue="/" name="Check for EMP_DTL_SLASH2" result="Success"/>
+              <results actualValue="94" expectedValue="94" name="Check for EMP_DTL_HIRE_YY" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER4" result="Success"/>
+              <results actualValue="26" expectedValue="26" name="Check for EMP_DTL_YRS_OF_SERVICE" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER5" result="Success"/>
+              <results actualHex="40F1F2F2F54BF0F0" actualValue="1225.00" dataID="output15.arg0.EMPLOYEE_DTL.EMP_DTL_WAGES" expectedAssert="" expectedValue="900.00" message="Check for EMP_DTL_WAGES failed" name="Check for EMP_DTL_WAGES" result="Failure"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER6" result="Success"/>
+              <results actualValue="0.00" expectedValue="0.00" name="Check for EMP_DTL_OT" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER7" result="Success"/>
+              <results actualHex="40F6F0F0F04BF0F0" actualValue="6000.00" dataID="output15.arg0.EMPLOYEE_DTL.EMP_DTL_COMM" expectedAssert="" expectedValue="5600.00" message="Check for EMP_DTL_COMM failed" name="Check for EMP_DTL_COMM" result="Failure"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER8" result="Success"/>
+              <results actualHex="40F7F2F2F54BF0F0" actualValue="7225.00" dataID="output15.arg0.EMPLOYEE_DTL.EMP_DTL_TOTAL" expectedAssert="" expectedValue="6500.00" message="Check for EMP_DTL_TOTAL failed" name="Check for EMP_DTL_TOTAL" result="Failure"/>
+              <stubdata href="CWXTCOB_Scenario.archive#Unit%20Test/Stubs/CWXTCOB_RPTFILE_FILE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_FILE_01.stub.15"/>
+            </stubdataassertions>
+            <stubdataassertions failureCount="10" testCount="22">
+              <results actualValue="" expectedValue="" name="Check for FILLER0" result="Success"/>
+              <results actualHex="D4C1D9C3C9C140E2E4D3D3C9E5C1D5" actualValue="MARCIA SULLIVAN" dataID="output16.arg0.EMPLOYEE_DTL.EMP_DTL_NAME" expectedAssert="" expectedValue="LAURA MARTIN" message="Check for EMP_DTL_NAME failed" name="Check for EMP_DTL_NAME" result="Failure"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER1" result="Success"/>
+              <results actualValue="EAST" expectedValue="EAST" name="Check for EMP_DTL_REGION" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER2" result="Success"/>
+              <results actualHex="C8" actualValue="H" dataID="output16.arg0.EMPLOYEE_DTL.EMP_DTL_TYPE" expectedAssert="" expectedValue="S" message="Check for EMP_DTL_TYPE failed" name="Check for EMP_DTL_TYPE" result="Failure"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER3" result="Success"/>
+              <results actualHex="F1F1" actualValue="11" dataID="output16.arg0.EMPLOYEE_DTL.EMP_DTL_HIRE_MM" expectedAssert="" expectedValue="6" message="Check for EMP_DTL_HIRE_MM failed" name="Check for EMP_DTL_HIRE_MM" result="Failure"/>
+              <results actualValue="/" expectedValue="/" name="Check for EMP_DTL_SLASH1" result="Success"/>
+              <results actualHex="F1F1" actualValue="11" dataID="output16.arg0.EMPLOYEE_DTL.EMP_DTL_HIRE_DD" expectedAssert="" expectedValue="14" message="Check for EMP_DTL_HIRE_DD failed" name="Check for EMP_DTL_HIRE_DD" result="Failure"/>
+              <results actualValue="/" expectedValue="/" name="Check for EMP_DTL_SLASH2" result="Success"/>
+              <results actualHex="F8F1" actualValue="81" dataID="output16.arg0.EMPLOYEE_DTL.EMP_DTL_HIRE_YY" expectedAssert="" expectedValue="83" message="Check for EMP_DTL_HIRE_YY failed" name="Check for EMP_DTL_HIRE_YY" result="Failure"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER4" result="Success"/>
+              <results actualHex="F3F9" actualValue="39" dataID="output16.arg0.EMPLOYEE_DTL.EMP_DTL_YRS_OF_SERVICE" expectedAssert="" expectedValue="37" message="Check for EMP_DTL_YRS_OF_SERVICE failed" name="Check for EMP_DTL_YRS_OF_SERVICE" result="Failure"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER5" result="Success"/>
+              <results actualHex="40F1F2F0F04BF0F0" actualValue="1200.00" dataID="output16.arg0.EMPLOYEE_DTL.EMP_DTL_WAGES" expectedAssert="" expectedValue="1225.00" message="Check for EMP_DTL_WAGES failed" name="Check for EMP_DTL_WAGES" result="Failure"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER6" result="Success"/>
+              <results actualHex="4040F1F8F04BF0F0" actualValue="180.00" dataID="output16.arg0.EMPLOYEE_DTL.EMP_DTL_OT" expectedAssert="" expectedValue="0.00" message="Check for EMP_DTL_OT failed" name="Check for EMP_DTL_OT" result="Failure"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER7" result="Success"/>
+              <results actualHex="40404040F04BF0F0" actualValue="0.00" dataID="output16.arg0.EMPLOYEE_DTL.EMP_DTL_COMM" expectedAssert="" expectedValue="6000.00" message="Check for EMP_DTL_COMM failed" name="Check for EMP_DTL_COMM" result="Failure"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER8" result="Success"/>
+              <results actualHex="40F1F3F8F04BF0F0" actualValue="1380.00" dataID="output16.arg0.EMPLOYEE_DTL.EMP_DTL_TOTAL" expectedAssert="" expectedValue="7225.00" message="Check for EMP_DTL_TOTAL failed" name="Check for EMP_DTL_TOTAL" result="Failure"/>
+              <stubdata href="CWXTCOB_Scenario.archive#Unit%20Test/Stubs/CWXTCOB_RPTFILE_FILE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_FILE_01.stub.16"/>
+            </stubdataassertions>
+            <stubdataassertions failureCount="8" testCount="22">
+              <results actualValue="" expectedValue="" name="Check for FILLER0" result="Success"/>
+              <results actualHex="D1C1D4C5E240D4D6D9D9C9E2D6D540" actualValue="JAMES MORRISON" dataID="output17.arg0.EMPLOYEE_DTL.EMP_DTL_NAME" expectedAssert="" expectedValue="MARCIA SULLIVAN" message="Check for EMP_DTL_NAME failed" name="Check for EMP_DTL_NAME" result="Failure"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER1" result="Success"/>
+              <results actualValue="EAST" expectedValue="EAST" name="Check for EMP_DTL_REGION" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER2" result="Success"/>
+              <results actualValue="H" expectedValue="H" name="Check for EMP_DTL_TYPE" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER3" result="Success"/>
+              <results actualHex="F0F8" actualValue="8" dataID="output17.arg0.EMPLOYEE_DTL.EMP_DTL_HIRE_MM" expectedAssert="" expectedValue="4" message="Check for EMP_DTL_HIRE_MM failed" name="Check for EMP_DTL_HIRE_MM" result="Failure"/>
+              <results actualValue="/" expectedValue="/" name="Check for EMP_DTL_SLASH1" result="Success"/>
+              <results actualHex="F3F0" actualValue="30" dataID="output17.arg0.EMPLOYEE_DTL.EMP_DTL_HIRE_DD" expectedAssert="" expectedValue="5" message="Check for EMP_DTL_HIRE_DD failed" name="Check for EMP_DTL_HIRE_DD" result="Failure"/>
+              <results actualValue="/" expectedValue="/" name="Check for EMP_DTL_SLASH2" result="Success"/>
+              <results actualHex="F8F2" actualValue="82" dataID="output17.arg0.EMPLOYEE_DTL.EMP_DTL_HIRE_YY" expectedAssert="" expectedValue="93" message="Check for EMP_DTL_HIRE_YY failed" name="Check for EMP_DTL_HIRE_YY" result="Failure"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER4" result="Success"/>
+              <results actualHex="F3F8" actualValue="38" dataID="output17.arg0.EMPLOYEE_DTL.EMP_DTL_YRS_OF_SERVICE" expectedAssert="" expectedValue="28" message="Check for EMP_DTL_YRS_OF_SERVICE failed" name="Check for EMP_DTL_YRS_OF_SERVICE" result="Failure"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER5" result="Success"/>
+              <results actualHex="40F1F0F1F74BF5F0" actualValue="1017.50" dataID="output17.arg0.EMPLOYEE_DTL.EMP_DTL_WAGES" expectedAssert="" expectedValue="1200.00" message="Check for EMP_DTL_WAGES failed" name="Check for EMP_DTL_WAGES" result="Failure"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER6" result="Success"/>
+              <results actualHex="40404040F04BF0F0" actualValue="0.00" dataID="output17.arg0.EMPLOYEE_DTL.EMP_DTL_OT" expectedAssert="" expectedValue="180.00" message="Check for EMP_DTL_OT failed" name="Check for EMP_DTL_OT" result="Failure"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER7" result="Success"/>
+              <results actualValue="0.00" expectedValue="0.00" name="Check for EMP_DTL_COMM" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER8" result="Success"/>
+              <results actualHex="40F1F0F1F74BF5F0" actualValue="1017.50" dataID="output17.arg0.EMPLOYEE_DTL.EMP_DTL_TOTAL" expectedAssert="" expectedValue="1380.00" message="Check for EMP_DTL_TOTAL failed" name="Check for EMP_DTL_TOTAL" result="Failure"/>
+              <stubdata href="CWXTCOB_Scenario.archive#Unit%20Test/Stubs/CWXTCOB_RPTFILE_FILE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_FILE_01.stub.17"/>
+            </stubdataassertions>
+            <stubdataassertions failureCount="8" testCount="22">
+              <results actualValue="" expectedValue="" name="Check for FILLER0" result="Success"/>
+              <results actualHex="E3C8D6D4C1E240D3D6D5C740404040" actualValue="THOMAS LONG" dataID="output18.arg0.EMPLOYEE_DTL.EMP_DTL_NAME" expectedAssert="" expectedValue="JAMES MORRISON" message="Check for EMP_DTL_NAME failed" name="Check for EMP_DTL_NAME" result="Failure"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER1" result="Success"/>
+              <results actualHex="E6C5E2E340" actualValue="WEST" dataID="output18.arg0.EMPLOYEE_DTL.EMP_DTL_REGION" expectedAssert="" expectedValue="EAST" message="Check for EMP_DTL_REGION failed" name="Check for EMP_DTL_REGION" result="Failure"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER2" result="Success"/>
+              <results actualValue="H" expectedValue="H" name="Check for EMP_DTL_TYPE" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER3" result="Success"/>
+              <results actualHex="F0F7" actualValue="7" dataID="output18.arg0.EMPLOYEE_DTL.EMP_DTL_HIRE_MM" expectedAssert="" expectedValue="9" message="Check for EMP_DTL_HIRE_MM failed" name="Check for EMP_DTL_HIRE_MM" result="Failure"/>
+              <results actualValue="/" expectedValue="/" name="Check for EMP_DTL_SLASH1" result="Success"/>
+              <results actualHex="F2F0" actualValue="20" dataID="output18.arg0.EMPLOYEE_DTL.EMP_DTL_HIRE_DD" expectedAssert="" expectedValue="13" message="Check for EMP_DTL_HIRE_DD failed" name="Check for EMP_DTL_HIRE_DD" result="Failure"/>
+              <results actualValue="/" expectedValue="/" name="Check for EMP_DTL_SLASH2" result="Success"/>
+              <results actualHex="F8F9" actualValue="89" dataID="output18.arg0.EMPLOYEE_DTL.EMP_DTL_HIRE_YY" expectedAssert="" expectedValue="91" message="Check for EMP_DTL_HIRE_YY failed" name="Check for EMP_DTL_HIRE_YY" result="Failure"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER4" result="Success"/>
+              <results actualHex="F3F1" actualValue="31" dataID="output18.arg0.EMPLOYEE_DTL.EMP_DTL_YRS_OF_SERVICE" expectedAssert="" expectedValue="29" message="Check for EMP_DTL_YRS_OF_SERVICE failed" name="Check for EMP_DTL_YRS_OF_SERVICE" result="Failure"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER5" result="Success"/>
+              <results actualHex="40F1F0F0F04BF0F0" actualValue="1000.00" dataID="output18.arg0.EMPLOYEE_DTL.EMP_DTL_WAGES" expectedAssert="" expectedValue="1017.50" message="Check for EMP_DTL_WAGES failed" name="Check for EMP_DTL_WAGES" result="Failure"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER6" result="Success"/>
+              <results actualValue="0.00" expectedValue="0.00" name="Check for EMP_DTL_OT" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER7" result="Success"/>
+              <results actualValue="0.00" expectedValue="0.00" name="Check for EMP_DTL_COMM" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER8" result="Success"/>
+              <results actualHex="40F1F0F0F04BF0F0" actualValue="1000.00" dataID="output18.arg0.EMPLOYEE_DTL.EMP_DTL_TOTAL" expectedAssert="" expectedValue="1017.50" message="Check for EMP_DTL_TOTAL failed" name="Check for EMP_DTL_TOTAL" result="Failure"/>
+              <stubdata href="CWXTCOB_Scenario.archive#Unit%20Test/Stubs/CWXTCOB_RPTFILE_FILE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_FILE_01.stub.18"/>
+            </stubdataassertions>
+            <stubdataassertions failureCount="8" testCount="22">
+              <results actualValue="" expectedValue="" name="Check for FILLER0" result="Success"/>
+              <results actualHex="C4D6D5D5C140C2D9D6E6D540404040" actualValue="DONNA BROWN" dataID="output19.arg0.EMPLOYEE_DTL.EMP_DTL_NAME" expectedAssert="" expectedValue="THOMAS LONG" message="Check for EMP_DTL_NAME failed" name="Check for EMP_DTL_NAME" result="Failure"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER1" result="Success"/>
+              <results actualValue="WEST" expectedValue="WEST" name="Check for EMP_DTL_REGION" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER2" result="Success"/>
+              <results actualHex="E2" actualValue="S" dataID="output19.arg0.EMPLOYEE_DTL.EMP_DTL_TYPE" expectedAssert="" expectedValue="H" message="Check for EMP_DTL_TYPE failed" name="Check for EMP_DTL_TYPE" result="Failure"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER3" result="Success"/>
+              <results actualHex="F0F6" actualValue="6" dataID="output19.arg0.EMPLOYEE_DTL.EMP_DTL_HIRE_MM" expectedAssert="" expectedValue="3" message="Check for EMP_DTL_HIRE_MM failed" name="Check for EMP_DTL_HIRE_MM" result="Failure"/>
+              <results actualValue="/" expectedValue="/" name="Check for EMP_DTL_SLASH1" result="Success"/>
+              <results actualHex="F1F4" actualValue="14" dataID="output19.arg0.EMPLOYEE_DTL.EMP_DTL_HIRE_DD" expectedAssert="" expectedValue="31" message="Check for EMP_DTL_HIRE_DD failed" name="Check for EMP_DTL_HIRE_DD" result="Failure"/>
+              <results actualValue="/" expectedValue="/" name="Check for EMP_DTL_SLASH2" result="Success"/>
+              <results actualHex="F8F3" actualValue="83" dataID="output19.arg0.EMPLOYEE_DTL.EMP_DTL_HIRE_YY" expectedAssert="" expectedValue="87" message="Check for EMP_DTL_HIRE_YY failed" name="Check for EMP_DTL_HIRE_YY" result="Failure"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER4" result="Success"/>
+              <results actualHex="F3F7" actualValue="37" dataID="output19.arg0.EMPLOYEE_DTL.EMP_DTL_YRS_OF_SERVICE" expectedAssert="" expectedValue="34" message="Check for EMP_DTL_YRS_OF_SERVICE failed" name="Check for EMP_DTL_YRS_OF_SERVICE" result="Failure"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER5" result="Success"/>
+              <results actualValue="1000.00" expectedValue="1000.00" name="Check for EMP_DTL_WAGES" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER6" result="Success"/>
+              <results actualValue="0.00" expectedValue="0.00" name="Check for EMP_DTL_OT" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER7" result="Success"/>
+              <results actualHex="40F3F3F3F34BF0F0" actualValue="3333.00" dataID="output19.arg0.EMPLOYEE_DTL.EMP_DTL_COMM" expectedAssert="" expectedValue="0.00" message="Check for EMP_DTL_COMM failed" name="Check for EMP_DTL_COMM" result="Failure"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER8" result="Success"/>
+              <results actualHex="40F4F3F3F34BF0F0" actualValue="4333.00" dataID="output19.arg0.EMPLOYEE_DTL.EMP_DTL_TOTAL" expectedAssert="" expectedValue="1000.00" message="Check for EMP_DTL_TOTAL failed" name="Check for EMP_DTL_TOTAL" result="Failure"/>
+              <stubdata href="CWXTCOB_Scenario.archive#Unit%20Test/Stubs/CWXTCOB_RPTFILE_FILE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_FILE_01.stub.19"/>
+            </stubdataassertions>
+            <stubdataassertions failureCount="10" testCount="22">
+              <results actualValue="" expectedValue="" name="Check for FILLER0" result="Success"/>
+              <results actualHex="E2C1D4E4C5D340C1C4C4C1D4E24040" actualValue="SAMUEL ADDAMS" dataID="output20.arg0.EMPLOYEE_DTL.EMP_DTL_NAME" expectedAssert="" expectedValue="DONNA BROWN" message="Check for EMP_DTL_NAME failed" name="Check for EMP_DTL_NAME" result="Failure"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER1" result="Success"/>
+              <results actualValue="WEST" expectedValue="WEST" name="Check for EMP_DTL_REGION" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER2" result="Success"/>
+              <results actualHex="C8" actualValue="H" dataID="output20.arg0.EMPLOYEE_DTL.EMP_DTL_TYPE" expectedAssert="" expectedValue="S" message="Check for EMP_DTL_TYPE failed" name="Check for EMP_DTL_TYPE" result="Failure"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER3" result="Success"/>
+              <results actualHex="F0F9" actualValue="9" dataID="output20.arg0.EMPLOYEE_DTL.EMP_DTL_HIRE_MM" expectedAssert="" expectedValue="11" message="Check for EMP_DTL_HIRE_MM failed" name="Check for EMP_DTL_HIRE_MM" result="Failure"/>
+              <results actualValue="/" expectedValue="/" name="Check for EMP_DTL_SLASH1" result="Success"/>
+              <results actualHex="F1F3" actualValue="13" dataID="output20.arg0.EMPLOYEE_DTL.EMP_DTL_HIRE_DD" expectedAssert="" expectedValue="11" message="Check for EMP_DTL_HIRE_DD failed" name="Check for EMP_DTL_HIRE_DD" result="Failure"/>
+              <results actualValue="/" expectedValue="/" name="Check for EMP_DTL_SLASH2" result="Success"/>
+              <results actualHex="F9F1" actualValue="91" dataID="output20.arg0.EMPLOYEE_DTL.EMP_DTL_HIRE_YY" expectedAssert="" expectedValue="81" message="Check for EMP_DTL_HIRE_YY failed" name="Check for EMP_DTL_HIRE_YY" result="Failure"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER4" result="Success"/>
+              <results actualHex="F2F9" actualValue="29" dataID="output20.arg0.EMPLOYEE_DTL.EMP_DTL_YRS_OF_SERVICE" expectedAssert="" expectedValue="39" message="Check for EMP_DTL_YRS_OF_SERVICE failed" name="Check for EMP_DTL_YRS_OF_SERVICE" result="Failure"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER5" result="Success"/>
+              <results actualHex="40F1F1F0F04BF0F0" actualValue="1100.00" dataID="output20.arg0.EMPLOYEE_DTL.EMP_DTL_WAGES" expectedAssert="" expectedValue="1000.00" message="Check for EMP_DTL_WAGES failed" name="Check for EMP_DTL_WAGES" result="Failure"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER6" result="Success"/>
+              <results actualHex="404040F8F24BF5F0" actualValue="82.50" dataID="output20.arg0.EMPLOYEE_DTL.EMP_DTL_OT" expectedAssert="" expectedValue="0.00" message="Check for EMP_DTL_OT failed" name="Check for EMP_DTL_OT" result="Failure"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER7" result="Success"/>
+              <results actualHex="40404040F04BF0F0" actualValue="0.00" dataID="output20.arg0.EMPLOYEE_DTL.EMP_DTL_COMM" expectedAssert="" expectedValue="3333.00" message="Check for EMP_DTL_COMM failed" name="Check for EMP_DTL_COMM" result="Failure"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER8" result="Success"/>
+              <results actualHex="40F1F1F8F24BF5F0" actualValue="1182.50" dataID="output20.arg0.EMPLOYEE_DTL.EMP_DTL_TOTAL" expectedAssert="" expectedValue="4333.00" message="Check for EMP_DTL_TOTAL failed" name="Check for EMP_DTL_TOTAL" result="Failure"/>
+              <stubdata href="CWXTCOB_Scenario.archive#Unit%20Test/Stubs/CWXTCOB_RPTFILE_FILE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_FILE_01.stub.20"/>
+            </stubdataassertions>
+            <stubdataassertions failureCount="10" testCount="22">
+              <results actualValue="" expectedValue="" name="Check for FILLER0" result="Success"/>
+              <results actualHex="D4C1D9D240D1D6C8D5E2D6D5404040" actualValue="MARK JOHNSON" dataID="output21.arg0.EMPLOYEE_DTL.EMP_DTL_NAME" expectedAssert="" expectedValue="SAMUEL ADDAMS" message="Check for EMP_DTL_NAME failed" name="Check for EMP_DTL_NAME" result="Failure"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER1" result="Success"/>
+              <results actualValue="WEST" expectedValue="WEST" name="Check for EMP_DTL_REGION" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER2" result="Success"/>
+              <results actualHex="E2" actualValue="S" dataID="output21.arg0.EMPLOYEE_DTL.EMP_DTL_TYPE" expectedAssert="" expectedValue="H" message="Check for EMP_DTL_TYPE failed" name="Check for EMP_DTL_TYPE" result="Failure"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER3" result="Success"/>
+              <results actualHex="F0F2" actualValue="2" dataID="output21.arg0.EMPLOYEE_DTL.EMP_DTL_HIRE_MM" expectedAssert="" expectedValue="1" message="Check for EMP_DTL_HIRE_MM failed" name="Check for EMP_DTL_HIRE_MM" result="Failure"/>
+              <results actualValue="/" expectedValue="/" name="Check for EMP_DTL_SLASH1" result="Success"/>
+              <results actualHex="F2F9" actualValue="29" dataID="output21.arg0.EMPLOYEE_DTL.EMP_DTL_HIRE_DD" expectedAssert="" expectedValue="2" message="Check for EMP_DTL_HIRE_DD failed" name="Check for EMP_DTL_HIRE_DD" result="Failure"/>
+              <results actualValue="/" expectedValue="/" name="Check for EMP_DTL_SLASH2" result="Success"/>
+              <results actualHex="F8F8" actualValue="88" dataID="output21.arg0.EMPLOYEE_DTL.EMP_DTL_HIRE_YY" expectedAssert="" expectedValue="86" message="Check for EMP_DTL_HIRE_YY failed" name="Check for EMP_DTL_HIRE_YY" result="Failure"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER4" result="Success"/>
+              <results actualHex="F3F3" actualValue="33" dataID="output21.arg0.EMPLOYEE_DTL.EMP_DTL_YRS_OF_SERVICE" expectedAssert="" expectedValue="35" message="Check for EMP_DTL_YRS_OF_SERVICE failed" name="Check for EMP_DTL_YRS_OF_SERVICE" result="Failure"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER5" result="Success"/>
+              <results actualHex="4040F7F5F04BF0F0" actualValue="750.00" dataID="output21.arg0.EMPLOYEE_DTL.EMP_DTL_WAGES" expectedAssert="" expectedValue="1100.00" message="Check for EMP_DTL_WAGES failed" name="Check for EMP_DTL_WAGES" result="Failure"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER6" result="Success"/>
+              <results actualHex="40404040F04BF0F0" actualValue="0.00" dataID="output21.arg0.EMPLOYEE_DTL.EMP_DTL_OT" expectedAssert="" expectedValue="82.50" message="Check for EMP_DTL_OT failed" name="Check for EMP_DTL_OT" result="Failure"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER7" result="Success"/>
+              <results actualHex="40F6F0F0F04BF0F0" actualValue="6000.00" dataID="output21.arg0.EMPLOYEE_DTL.EMP_DTL_COMM" expectedAssert="" expectedValue="0.00" message="Check for EMP_DTL_COMM failed" name="Check for EMP_DTL_COMM" result="Failure"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER8" result="Success"/>
+              <results actualHex="40F6F7F5F04BF0F0" actualValue="6750.00" dataID="output21.arg0.EMPLOYEE_DTL.EMP_DTL_TOTAL" expectedAssert="" expectedValue="1182.50" message="Check for EMP_DTL_TOTAL failed" name="Check for EMP_DTL_TOTAL" result="Failure"/>
+              <stubdata href="CWXTCOB_Scenario.archive#Unit%20Test/Stubs/CWXTCOB_RPTFILE_FILE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_FILE_01.stub.21"/>
+            </stubdataassertions>
+            <stubdataassertions failureCount="13" testCount="22">
+              <results actualValue="" expectedValue="" name="Check for FILLER0" result="Success"/>
+              <results actualHex="404040404040404040404040404040" actualValue="" dataID="output22.arg0.EMPLOYEE_DTL.EMP_DTL_NAME" expectedAssert="" expectedValue="MARK JOHNSON" message="Check for EMP_DTL_NAME failed" name="Check for EMP_DTL_NAME" result="Failure"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER1" result="Success"/>
+              <results actualHex="4040404040" actualValue="" dataID="output22.arg0.EMPLOYEE_DTL.EMP_DTL_REGION" expectedAssert="" expectedValue="WEST" message="Check for EMP_DTL_REGION failed" name="Check for EMP_DTL_REGION" result="Failure"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER2" result="Success"/>
+              <results actualHex="40" actualValue="" dataID="output22.arg0.EMPLOYEE_DTL.EMP_DTL_TYPE" expectedAssert="" expectedValue="S" message="Check for EMP_DTL_TYPE failed" name="Check for EMP_DTL_TYPE" result="Failure"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER3" result="Success"/>
+              <results actualHex="4040" actualValue="X'4040'" dataID="output22.arg0.EMPLOYEE_DTL.EMP_DTL_HIRE_MM" expectedAssert="" expectedValue="9" message="Check for EMP_DTL_HIRE_MM failed" name="Check for EMP_DTL_HIRE_MM" result="Failure"/>
+              <results actualHex="40" actualValue="" dataID="output22.arg0.EMPLOYEE_DTL.EMP_DTL_SLASH1" expectedAssert="" expectedValue="/" message="Check for EMP_DTL_SLASH1 failed" name="Check for EMP_DTL_SLASH1" result="Failure"/>
+              <results actualHex="4040" actualValue="X'4040'" dataID="output22.arg0.EMPLOYEE_DTL.EMP_DTL_HIRE_DD" expectedAssert="" expectedValue="30" message="Check for EMP_DTL_HIRE_DD failed" name="Check for EMP_DTL_HIRE_DD" result="Failure"/>
+              <results actualHex="40" actualValue="" dataID="output22.arg0.EMPLOYEE_DTL.EMP_DTL_SLASH2" expectedAssert="" expectedValue="/" message="Check for EMP_DTL_SLASH2 failed" name="Check for EMP_DTL_SLASH2" result="Failure"/>
+              <results actualHex="4040" actualValue="X'4040'" dataID="output22.arg0.EMPLOYEE_DTL.EMP_DTL_HIRE_YY" expectedAssert="" expectedValue="82" message="Check for EMP_DTL_HIRE_YY failed" name="Check for EMP_DTL_HIRE_YY" result="Failure"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER4" result="Success"/>
+              <results actualHex="4040" actualValue="X'4040'" dataID="output22.arg0.EMPLOYEE_DTL.EMP_DTL_YRS_OF_SERVICE" expectedAssert="" expectedValue="38" message="Check for EMP_DTL_YRS_OF_SERVICE failed" name="Check for EMP_DTL_YRS_OF_SERVICE" result="Failure"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER5" result="Success"/>
+              <results actualHex="4040404040404040" actualValue="0" dataID="output22.arg0.EMPLOYEE_DTL.EMP_DTL_WAGES" expectedAssert="" expectedValue="750.00" message="Check for EMP_DTL_WAGES failed" name="Check for EMP_DTL_WAGES" result="Failure"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER6" result="Success"/>
+              <results actualHex="4040404040404040" actualValue="X'4040404040404040'" dataID="output22.arg0.EMPLOYEE_DTL.EMP_DTL_OT" expectedAssert="" expectedValue="X'40404040F04BF0F0'" message="Check for EMP_DTL_OT failed" name="Check for EMP_DTL_OT" result="Failure"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER7" result="Success"/>
+              <results actualHex="4040404040404040" actualValue="0" dataID="output22.arg0.EMPLOYEE_DTL.EMP_DTL_COMM" expectedAssert="" expectedValue="6000.00" message="Check for EMP_DTL_COMM failed" name="Check for EMP_DTL_COMM" result="Failure"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER8" result="Success"/>
+              <results actualHex="4040404040404040" actualValue="0" dataID="output22.arg0.EMPLOYEE_DTL.EMP_DTL_TOTAL" expectedAssert="" expectedValue="6750.00" message="Check for EMP_DTL_TOTAL failed" name="Check for EMP_DTL_TOTAL" result="Failure"/>
+              <stubdata href="CWXTCOB_Scenario.archive#Unit%20Test/Stubs/CWXTCOB_RPTFILE_FILE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_FILE_01.stub.22"/>
+            </stubdataassertions>
+            <stubdataassertions failureCount="1" testCount="1">
+              <results actualHex="40404040E3D6E3C1D3404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040F4F5F3F6F64BF0F0" actualValue="    TOTAL                                                               45366.00" dataID="output23.arg0.BLANK_LINE.BLANK_LINE" expectedAssert="" expectedValue="" message="Check for BLANK_LINE failed" name="Check for BLANK_LINE" result="Failure"/>
+              <stubdata href="CWXTCOB_Scenario.archive#Unit%20Test/Stubs/CWXTCOB_RPTFILE_FILE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_FILE_01.stub.23"/>
+            </stubdataassertions>
+            <stubdataassertions errorCount="1" testCount="1">
+              <results message="Stub record has no output or output is empty." name="Stub record incomplete" result="Error"/>
+              <stubdata href="CWXTCOB_Scenario.archive#Unit%20Test/Stubs/CWXTCOB_RPTFILE_FILE_01.stub.Unit%20Test/Stubs/CWXTCOB_RPTFILE_FILE_01.stub.24"/>
+            </stubdataassertions>
+            <stub href="CWXTCOB_Scenario.archive#Unit%20Test/Stubs/CWXTCOB_RPTFILE_FILE_01.stub"/>
+          </stubAssertion>
+          <testcase href="CWXTCOB_Scenario.archive#Unit%20Test/Scenarios/CWXTCOB_Scenario.testscenario%23CWXTCOBCase1"/>
+        </testcaseResults>
+        <testscenario href="CWXTCOB_Scenario.archive#Unit%20Test/Scenarios/CWXTCOB_Scenario.testscenario"/>
+      </testscenarioResults>
+      <testsuite href="CWXTCOB_Scenario.archive#%5C.temp%5CCWXTCOB_Scenario.testsuite"/>
+    </testsuiteResult>
+  </result>
+</result:DocumentRoot>

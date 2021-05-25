@@ -1,10 +1,10 @@
-17:56:37.156 INFO      TOPAZ            ***************************************
-17:56:37.157 INFO      TOPAZ            ** Execution from Topaz with options **
-17:56:37.157 INFO      TOPAZ            ***************************************
-17:56:37.157 INFO      TOPAZ            Using repository: false
-17:56:37.157 INFO      TOPAZ            ***************************************
-17:56:37.157 INFO      Engine           Test Scenario execution started
-17:56:37.158 INFO      Engine           Using context settings:
+17:57:24.187 INFO      TOPAZ            ***************************************
+17:57:24.187 INFO      TOPAZ            ** Execution from Topaz with options **
+17:57:24.187 INFO      TOPAZ            ***************************************
+17:57:24.187 INFO      TOPAZ            Using repository: false
+17:57:24.188 INFO      TOPAZ            ***************************************
+17:57:24.188 INFO      Engine           Test Scenario execution started
+17:57:24.188 INFO      Engine           Using context settings:
   Engine Version                : 20.4
   Environment id                : 35dcb5a0-9482-4607-b4f3-b2a69ef87c13
   Environment type              : Batch
@@ -19,23 +19,22 @@
   Codepage                      : IBM-1047
   Host user Id                  : JPS1
   Use Repository Server         : false
-17:56:37.158 INFO      Engine           Setting variables from context and context data extensions
-17:56:37.158 INFO      Engine             id: environmentId      value: 35dcb5a0-9482-4607-b4f3-b2a69ef87c13
-17:56:37.158 INFO      Engine             id: environmentType    value: BATCH
-17:56:37.158 INFO      Engine             id: userId             value: JPS1
-17:56:37.158 INFO      Engine             id: accountingInfo     value: 
-17:56:37.158 INFO      Engine             id: unittest.loadlibraries  value: SYS3.ECC.MLCX170.SLCXLOAD
-17:56:37.158 INFO      Unittest         Interpreting Unittest of module: CWXTCOB testscenario path: CWXTCOB_Scenario.testscenario
-17:56:37.242 INFO      Unittest         Using local JCL skeleton to submit JCL
-17:56:39.632 INFO      RC40             Sending Job execution request to Host 
-17:56:45.534 INFO      RC40             Job execution completed with status:
-  Job status     : JCLERROR
-  Job status msg : Job JPS1A(J0812391) ended with JCL error, check JES output.
+17:57:24.188 INFO      Engine           Setting variables from context and context data extensions
+17:57:24.189 INFO      Engine             id: environmentId      value: 35dcb5a0-9482-4607-b4f3-b2a69ef87c13
+17:57:24.189 INFO      Engine             id: environmentType    value: BATCH
+17:57:24.189 INFO      Engine             id: userId             value: JPS1
+17:57:24.189 INFO      Engine             id: accountingInfo     value: 
+17:57:24.190 INFO      Engine             id: unittest.loadlibraries  value: DataItem{name=unittest.loadlibraries, DataItem{name=Entry, getValue()=SYS3.ECC.MLCX170.SLCXLOAD, StringDataItem{value=SYS3.ECC.MLCX170.SLCXLOAD}}, DataItem{name=Entry, getValue()=SYS3.XPEDITER.TSO.SHARED.SLXTLOAD, StringDataItem{value=SYS3.XPEDITER.TSO.SHARED.SLXTLOAD}}}
+17:57:24.190 INFO      Unittest         Interpreting Unittest of module: CWXTCOB testscenario path: CWXTCOB_Scenario.testscenario
+17:57:24.299 INFO      Unittest         Using local JCL skeleton to submit JCL
+17:57:26.929 INFO      RC40             Sending Job execution request to Host 
+17:57:32.460 INFO      RC40             Job execution completed with status:
+  Job status     : COMPLETED
+  Job status msg : Job JPS1A(J0889294) ended with return code: 0000
   Job name       : JPS1A
-  Job id         : J0812391
-  Return code    : JCL ERROR
+  Job id         : J0889294
+  Return code    : 0000
   Abend code     : 
   Abend reason   : 
-17:56:45.780 ERROR     Engine           Unable to execute the job definition at the host. Job stopped with JCL error
-17:56:45.781 ERROR     Engine           An error occurred. Now stopping the execution.
-17:56:45.781 INFO      Engine           Test Scenario execution ended
+17:57:33.899 INFO      Unittest         Execution completed
+17:57:33.899 INFO      Engine           Test Scenario execution ended
